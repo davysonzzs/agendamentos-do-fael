@@ -1,6 +1,6 @@
 const app = require('express')();
 const server = require('http').createServer(app);
-const io = require('socket.io')(server, {cors: {origin: "https://agendamentos-do-fael.vercel.app/"}});
+const io = require('socket.io')(server, {cors: {origin: "https://agendamentos-do-fael.vercel.app"}});
 io.on('connection', socket => {
     console.log("usuario " + socket.id + " conectado")
 
