@@ -1,0 +1,9 @@
+.item{
+    border: 2px solid #0062ae;
+    padding: 18px 15px;
+    margin: 8px;
+}
+
+.item > h1{
+    margin-bottom: 9px;
+}

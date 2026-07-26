@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tudo{
+    margin: 10px;
+    padding: 10px;
+    background-image: url("./assets/fael.png");
+    width: 100vw;
+    height: 100vh;
+}
+
+.criar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.criarbtn{
+    padding: 15px 18px;
+    border: none;
+    border-radius: 360px;
+    background-color: #0062ae;
+    color: white;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.criarbtn:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.438) 2px 2px 2px 1px;
+}
+
+.visor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    max-width: 1200px;
+    gap: 16px;
+    margin: 0 auto;
+}
+
+.item{
+    background-color: black;
+    color: white;
+}
+
+.modal{
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.519);
+}
+
+.prin{
+    background-color: black;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.prin > input{
+    margin: 10px;       
+}
