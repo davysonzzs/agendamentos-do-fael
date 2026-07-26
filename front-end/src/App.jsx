@@ -2,7 +2,7 @@ import { useEffect } from "react"
 import { useRef } from "react"
 import { useState } from "react"
 import { supabase } from "./supabase-client/supabase"
-import Visor from "./components/visor"
+import Visor from "./components/Visor"
 import io from "socket.io-client"
 
 export default function App() {
