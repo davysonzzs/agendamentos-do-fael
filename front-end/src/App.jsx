@@ -14,7 +14,7 @@ export default function App() {
   const horaRef = useRef()
 
   async function conectar() {
-    const socketConnect = await io.connect("http://localhost:3000")
+    const socketConnect = await io.connect("https://agendamentos-do-fael.onrender.com")
     setSocket(socketConnect)
   }
 
