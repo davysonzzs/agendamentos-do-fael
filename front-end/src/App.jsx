@@ -44,6 +44,7 @@ export default function App() {
     }
     salvarNoBanco()
     socket.emit('message', agenda)
+    setVisiModal(false)
   }
 
   useEffect(() => {
